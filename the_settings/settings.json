@@ -1,0 +1,133 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#191947",
+    "activityBar.foreground": "#ffffff",
+    "sideBar.background": "#170129",
+    "sideBarTitle.foreground": "#ffffff",
+    "statusBar.background": "#4c245c",
+    "statusBar.foreground": "#ffffff",
+    "titleBar.activeBackground": "#191947",
+    "titleBar.activeForeground": "#ffffff"
+  },
+
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.suggest.selectionMode": "always",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
+  },
+
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.parameterHints.enabled": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.selectionHighlight": false,
+  "editor.occurrenceHighlight": "off",
+  "html.suggest.html5": false,
+  "inlineChat.fixDiagnostics": false,
+  "chat.agentMerge.fixCI": false,
+  "editor.inlineSuggest.enabled": false,
+  "terminal.integrated.suggest.quickSuggestions": {
+    "commands": "on",
+    "arguments": "on",
+    "unknown": "on"
+  },
+  "markdown.editor.quickSuggestions": true,
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Variables",
+        "scope": [
+          "variable",
+          "variable.other.readwrite",
+          "variable.other.property"
+        ],
+        "settings": {
+          "foreground": "#F5E0DC"
+        }
+      },
+      {
+        "name": "Function Parameters",
+        "scope": [
+          "variable.parameter",
+          "variable.parameter.function"
+        ],
+        "settings": {
+          "foreground": "#FF9E9E",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Functions & Methods",
+        "scope": [
+          "entity.name.function",
+          "support.function"
+        ],
+        "settings": {
+          "foreground": "#72bafa",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Strings",
+        "scope": [
+          "string",
+          "string.quoted"
+        ],
+        "settings": {
+          "foreground": "#ffbaf8"
+        }
+      },
+      {
+        "name": "Keywords & Control Flow",
+        "scope": [
+          "keyword",
+          "storage.type",
+          "storage.modifier"
+        ],
+        "settings": {
+          "foreground": "#CBA6F7"
+        }
+      },
+      {
+        "name": "Comments",
+        "scope": [
+          "comment",
+          "punctuation.definition.comment"
+        ],
+        "settings": {
+          "foreground": "#6C7086"
+        }
+      },
+      {
+        "name": "Numbers & Booleans",
+        "scope": [
+          "constant.numeric",
+          "constant.language.boolean"
+        ],
+        "settings": {
+          "foreground": "#FAB387"
+        }
+      },
+      {
+        "name": "Tags (HTML/XML)",
+        "scope": "entity.name.tag",
+        "settings": {
+          "foreground": "#F38BA8"
+        }
+      },
+      {
+        "name": "JSON Keys",
+        "scope": [
+          "meta.structure.dictionary.key.json string.quoted.double.json",
+          "support.type.property-name.json"
+        ],
+        "settings": {
+          "foreground": "#89DCEB"
+        }
+      }
+    ]
+  },
+  "workbench.iconTheme": "material-icon-theme"
+}
